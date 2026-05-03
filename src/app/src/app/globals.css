@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* The 'Gym' Background */
 body {
   background: #050505;
   color: white;
   margin: 0;
+  font-family: sans-serif;
 }
