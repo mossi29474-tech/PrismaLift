@@ -24,19 +24,3 @@
     "tailwindcss": "3.4.16"
   }
 }
-2️⃣ File Name: tailwind.config.ts
-Location: Main folder
-
-TypeScript
-import type { Config } from "tailwindcss";
-
-const config: Config = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-export default config;
